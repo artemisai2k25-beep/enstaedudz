@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Détails de la spécialité - ENSTA">
+    <title>Spécialité - ENSTA</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/details.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <div class="navbar-brand">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="ENSTA Logo" class="logo">
+                    <span class="brand-text">ENSTA</span>
+                </a>
+            </div>
+            
+            <ul class="navbar-menu" id="navbarMenu">
+                <li><a href="index.html#hero" class="nav-link">Accueil</a></li>
+                <li><a href="index.html#presentation" class="nav-link">Présentation</a></li>
+                <li><a href="index.html#formations" class="nav-link">Formations</a></li>
+                <li><a href="index.html#departements" class="nav-link">Départements</a></li>
+                <li><a href="index.html#specialites" class="nav-link">Spécialités</a></li>
+                <li><a href="index.html#admission" class="nav-link">Admission</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb -->
+    <section class="breadcrumb">
+        <div class="container">
+            <nav class="breadcrumb-nav">
+                <a href="index.html">Accueil</a>
+                <span>/</span>
+                <a href="index.html#specialites">Spécialités</a>
+                <span>/</span>
+                <span id="breadcrumbTitle">Spécialité</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Specialité Details -->
+    <main class="details-page">
+        <div class="container">
+            <!-- Header Section -->
+            <div class="details-header" id="detailsHeader">
+                <div class="details-icon" id="detailsIcon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="details-title-wrapper">
+                    <span class="details-badge" id="detailsBadge">Domaine ST</span>
+                    <h1 class="details-title" id="detailsTitle">Chargement...</h1>
+                    <p class="details-subtitle" id="detailsSubtitle">Chargement...</p>
+                </div>
+            </div>
+
+            <!-- Content Grid -->
+            <div class="details-content">
+                <!-- Main Content -->
+                <div class="details-main">
+                    <!-- Description -->
+                    <section class="details-section" data-aos="fade-up">
+                        <h2 class="section-title-small">
+                            <i class="fas fa-info-circle"></i>
+                            Description
+                        </h2>
+                        <div class="section-content" id="fullDescription">
+                            <p>Chargement...</p>
+                        </div>
+                    </section>
+
+                    <!-- Objectifs -->
+                    <section class="details-section" data-aos="fade-up" data-aos-delay="100">
+                        <h2 class="section-title-small">
+                            <i class="fas fa-bullseye"></i>
+                            Objectifs de la Formation
+                        </h2>
+                        <ul class="objectives-list" id="objectivesList">
+                            <li>Chargement...</li>
+                        </ul>
+                    </section>
+
+                    <!-- Débouchés -->
+                    <section class="details-section" data-aos="fade-up" data-aos-delay="200">
+                        <h2 class="section-title-small">
+                            <i class="fas fa-briefcase"></i>
+                            Débouchés Professionnels
+                        </h2>
+                        <div class="careers-grid" id="careersGrid">
+                            <div class="career-card">
+                                <i class="fas fa-user-tie"></i>
+                                <span>Chargement...</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Sidebar -->
+                <aside class="details-sidebar" data-aos="fade-left">
+                    <div class="sidebar-card">
+                        <h3>Informations</h3>
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>Durée</strong>
+                                <span id="infoDuration">3 ans</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-layer-group"></i>
+                            <div>
+                                <strong>Cycle</strong>
+                                <span id="infoCycle">Second Cycle</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-book"></i>
+                            <div>
+                                <strong>Domaine</strong>
+                                <span id="infoDomain">ST</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-card">
+                        <h3>Actions</h3>
+                        <a href="index.html#admission" class="btn btn-primary btn-block">
+                            <i class="fas fa-user-plus"></i>
+                            S'inscrire
+                        </a>
+                        <a href="index.html#contact" class="btn btn-outline btn-block">
+                            <i class="fas fa-envelope"></i>
+                            Nous contacter
+                        </a>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-brand">
+                        <img src="assets/images/logo.png" alt="ENSTA Logo" class="footer-logo">
+                        <h3>ENSTA</h3>
+                        <p>École Nationale Supérieure des Technologies Avancées. Excellence en ingénierie et technologies avancées.</p>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Liens Rapides</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html#presentation">Présentation</a></li>
+                        <li><a href="index.html#formations">Formations</a></li>
+                        <li><a href="index.html#specialites">Spécialités</a></li>
+                        <li><a href="index.html#admission">Admission</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> Cité Diplomatique, Dergana, Alger</li>
+                        <li><i class="fas fa-phone"></i> +213 23 79 71 18</li>
+                        <li><i class="fas fa-globe"></i> ensta.edu.dz</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Suivez-nous</h4>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 ENSTA - École Nationale Supérieure des Technologies Avancées. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/details.js"></script>
+</body>
+</html>
+

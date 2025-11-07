@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="École Nationale Supérieure des Technologies Avancées (ENSTA) - Excellence en ingénierie et technologies avancées">
+    <title>ENSTA - École Nationale Supérieure des Technologies Avancées</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <div class="navbar-brand">
+                <a href="#hero">
+                    <img src="assets/images/logo.png" alt="ENSTA Logo" class="logo">
+                    <span class="brand-text">ENSTA</span>
+                </a>
+            </div>
+            
+            <ul class="navbar-menu" id="navbarMenu">
+                <li><a href="#hero" class="nav-link active">Accueil</a></li>
+                <li><a href="#presentation" class="nav-link">Présentation</a></li>
+                <li><a href="#formations" class="nav-link">Formations</a></li>
+                <li><a href="#departements" class="nav-link">Départements</a></li>
+                <li><a href="#specialites" class="nav-link">Spécialités</a></li>
+                <li><a href="#admission" class="nav-link">Admission</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <h1 class="hero-title" data-aos="fade-up">
+                École Nationale Supérieure des<br>
+                <span class="gradient-text">Technologies Avancées</span>
+            </h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">
+                Excellence en ingénierie et technologies avancées
+            </p>
+            <div class="hero-cta" data-aos="fade-up" data-aos-delay="200">
+                <a href="#presentation" class="btn btn-primary">Découvrir l'ENSTA</a>
+                <a href="#admission" class="btn btn-secondary">Admission</a>
+            </div>
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="300">
+                <div class="stat">
+                    <span class="stat-number" data-target="203">0</span>
+                    <span class="stat-label">Enseignants</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="1762">0</span>
+                    <span class="stat-label">Étudiants</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="16">0</span>
+                    <span class="stat-label">Spécialités</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Présentation Section -->
+    <section id="presentation" class="section presentation">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Présentation</h2>
+                <p class="section-subtitle">Découvrez l'ENSTA, une école d'excellence en ingénierie</p>
+            </div>
+            
+            <div class="presentation-grid">
+                <div class="presentation-card" data-aos="fade-right">
+                    <div class="card-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Création</h3>
+                    <p>Fondée le <strong>12 septembre 2022</strong> par décret exécutif n° 22-314, l'ENSTA résulte de la fusion de l'ENST et de l'ESSA Alger.</p>
+                </div>
+                
+                <div class="presentation-card" data-aos="fade-up">
+                    <div class="card-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Mission</h3>
+                    <p>Formation de cadres hautement qualifiés dans les domaines des technologies avancées, de la recherche scientifique et de l'innovation.</p>
+                </div>
+                
+                <div class="presentation-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Vision</h3>
+                    <p>Devenir un établissement de référence en ingénierie et technologies avancées, reconnu à l'échelle nationale et internationale.</p>
+                </div>
+                
+                <div class="presentation-card" data-aos="fade-left">
+                    <div class="card-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Type</h3>
+                    <p>Établissement public à caractère scientifique, culturel et professionnel (EPSCP).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chiffres Clés Section -->
+    <section id="chiffres" class="section chiffres">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Chiffres Clés</h2>
+                <p class="section-subtitle">L'ENSTA en quelques chiffres</p>
+            </div>
+            
+            <div class="chiffres-grid">
+                <div class="chiffre-card" data-aos="zoom-in" data-aos-delay="0">
+                    <div class="chiffre-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <div class="chiffre-number" data-target="203">0</div>
+                    <div class="chiffre-label">Enseignants</div>
+                </div>
+                
+                <div class="chiffre-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="chiffre-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="chiffre-number" data-target="184">0</div>
+                    <div class="chiffre-label">Personnel ATS</div>
+                </div>
+                
+                <div class="chiffre-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="chiffre-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="chiffre-number" data-target="1762">0</div>
+                    <div class="chiffre-label">Étudiants</div>
+                </div>
+                
+                <div class="chiffre-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="chiffre-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <div class="chiffre-number" data-target="94">0</div>
+                    <div class="chiffre-label">Doctorants</div>
+                </div>
+                
+                <div class="chiffre-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="chiffre-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="chiffre-number" data-target="16">0</div>
+                    <div class="chiffre-label">Spécialités</div>
+                </div>
+                
+                <div class="chiffre-card" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="chiffre-icon">
+                        <i class="fas fa-sitemap"></i>
+                    </div>
+                    <div class="chiffre-number" data-target="9">0</div>
+                    <div class="chiffre-label">Départements</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cycles de Formation Section -->
+    <section id="formations" class="section formations">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Cycles de Formation</h2>
+                <p class="section-subtitle">Trois cycles pour former les ingénieurs de demain</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-marker">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Premier Cycle</h3>
+                        <span class="timeline-duration">2 ans</span>
+                        <p>Formation de base en Sciences et Technologies (ST) et Mathématiques et Informatique (MI). Préparation aux spécialisations du second cycle.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-marker">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Second Cycle</h3>
+                        <span class="timeline-duration">3 ans</span>
+                        <p>Spécialisation dans l'une des 16 spécialités proposées. Formation approfondie avec stages et projets industriels.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-marker">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Troisième Cycle</h3>
+                        <span class="timeline-duration">3+ ans</span>
+                        <p>Formation Doctorale. Recherche scientifique approfondie et préparation d'une thèse de doctorat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Spécialités Section -->
+    <section id="specialites" class="section specialites">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Spécialités</h2>
+                <p class="section-subtitle">16 spécialités d'excellence dans les technologies avancées</p>
+            </div>
+            
+            <div class="filter-buttons" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="all">Tout</button>
+                <button class="filter-btn" data-filter="st">Domaine ST</button>
+                <button class="filter-btn" data-filter="mi">Domaine MI</button>
+            </div>
+            
+            <div class="specialites-grid">
+                <!-- Domaine ST -->
+                <div class="specialite-card" data-category="st" data-aos="fade-up">
+                    <div class="specialite-header">
+                        <i class="fas fa-satellite-dish"></i>
+                        <h3>Systèmes de Télécommunications et Réseaux</h3>
+                    </div>
+                    <p>Conception et gestion de réseaux de télécommunications avancés.</p>
+                </div>
+                
+                <div class="specialite-card" data-category="st" data-aos="fade-up">
+                    <div class="specialite-header">
+                        <i class="fas fa-robot"></i>
+                        <h3>Automatique et Informatique Industrielle</h3>
+                    </div>
+                    <p>Automatisation des processus industriels et systèmes intelligents.</p>
+                </div>
+                
+                <div class="specialite-card" data-category="st" data-aos="fade-up">
+                    <div class="specialite-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Management et Ingénierie de la Maintenance Industrielle</h3>
+                    </div>
+                    <p>Gestion et optimisation de la maintenance industrielle.</p>
+                </div>
+                
+                <div class="specialite-card" data-category="st" data-aos="fade-up">
+                    <div class="specialite-header">
+                        <i class="fas fa-microchip"></i>
+                        <h3>Systèmes Embarqués</h3>
+                    </div>
+                    <p>Développement de systèmes électroniques embarqués.</p>
+                </div>
+                
+                <div class="specialite-card" data-category="st" data-aos="fade-up">
+                    <div class="specialite-header">
+                        <i class="fas fa-cog"></i>
+                        <h3>Mécatronique</h3>
+                    </div>
+                    <p>Intégration mécanique, électronique et informatique.</p>
+                </div>
+                
+                <div class="specialite-card" data-category="st" data-aos="fade-up">
+                    <div class="specialite-header">
+                        <i class="fas fa-industry"></i>
+                        <h3>Génie Industriel</h3>
+                    </div>
+                    <p>Optimisation des systèmes de production industrielle.</p>
+                </div>
+                
+                <div class="specialite-card" data-category="st" data-aos="fade-up">
+                    <div class="specialite-header">
+                        <i class="fas fa-truck"></i>
+                        <h3>Ingénierie de la Chaîne Logistique</h3>
+                    </div>
+                    <p>Gestion optimale des chaînes d'approvisionnement.</p>
+                </div>
+                
+                <div class="specialite-card" data-category="st" data-aos="fade-up">
+                    <div class="specialite-header">
+                        <i class="fas fa-train"></i>
+                        <h3>Ingénierie des Transports</h3>
+                    </div>
+                    <p>Conception et gestion des systèmes de transport.</p>
+                </div>
+                
+                <div class="specialite-card" data-category="st" data-aos="fade-up">
+                    <div class="specialite-header">
+                        <i class="fas fa-cogs"></i>
+                        <h3>Ingénierie Mécanique</h3>
+                    </div>
+                    <p>Conception et développement de systèmes mécaniques.</p>
+                </div>
+                
+                <div class="specialite-card" data-category="st" data-aos="fade-up">
+                    <div class="specialite-header">
+                        <i class="fas fa-tint"></i>
+                        <h3>Traitement des Eaux</h3>
+                    </div>
+                    <p>Technologies de traitement et gestion de l'eau.</p>
+                </div>
+                
+                <div class="specialite-card" data-category="st" data-aos="fade-up">
+                    <div class="specialite-header">
+                        <i class="fas fa-flask"></i>
+                        <h3>Procédés Organiques</h3>
+                    </div>
+                    <p>Ingénierie des procédés chimiques organiques.</p>
+                </div>
+                
+                <div class="specialite-card" data-category="st" data-aos="fade-up">
+                    <div class="specialite-header">
+                        <i class="fas fa-bolt"></i>
+                        <h3>Traction Électrique</h3>
+                    </div>
+                    <p>Systèmes de traction électrique pour transports.</p>
+                </div>
+                
+                <div class="specialite-card new" data-category="st" data-aos="fade-up">
+                    <div class="specialite-header">
+                        <i class="fas fa-fire"></i>
+                        <h3>Mécanique Énergétique</h3>
+                        <span class="badge-new">NOUVEAU 2025-2026</span>
+                    </div>
+                    <p>Optimisation énergétique des systèmes mécaniques.</p>
+                </div>
+                
+                <div class="specialite-card new" data-category="st" data-aos="fade-up">
+                    <div class="specialite-header">
+                        <i class="fas fa-solar-panel"></i>
+                        <h3>Énergies Renouvelables et Stockage d'Énergie</h3>
+                        <span class="badge-new">NOUVEAU 2025-2026</span>
+                    </div>
+                    <p>Technologies des énergies renouvelables et systèmes de stockage.</p>
+                </div>
+                
+                <!-- Domaine MI -->
+                <div class="specialite-card new" data-category="mi" data-aos="fade-up">
+                    <div class="specialite-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>Intelligence Artificielle et Applications</h3>
+                        <span class="badge-new">NOUVEAU 2025-2026</span>
+                    </div>
+                    <p>Développement d'applications intelligentes et systèmes d'IA.</p>
+                </div>
+                
+                <div class="specialite-card new" data-category="mi" data-aos="fade-up">
+                    <div class="specialite-header">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Sécurité des Systèmes</h3>
+                        <span class="badge-new">NOUVEAU 2025-2026</span>
+                    </div>
+                    <p>Cybersécurité et protection des systèmes informatiques.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Départements Section -->
+    <section id="departements" class="section departements">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Départements</h2>
+                <p class="section-subtitle">9 départements pour une formation complète</p>
+            </div>
+            
+            <div class="departements-grid">
+                <div class="departement-card" data-aos="zoom-in">
+                    <div class="departement-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>DFB-Info</h3>
+                    <p>Formation de Base en Informatique</p>
+                </div>
+                
+                <div class="departement-card" data-aos="zoom-in" data-aos-delay="50">
+                    <div class="departement-icon">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <h3>DFB-ST</h3>
+                    <p>Formation de Base en Sciences et Technologies</p>
+                </div>
+                
+                <div class="departement-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="departement-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Info</h3>
+                    <p>Informatique</p>
+                </div>
+                
+                <div class="departement-card" data-aos="zoom-in" data-aos-delay="150">
+                    <div class="departement-icon">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3>GEII</h3>
+                    <p>Génie Électrique et Informatique Industrielle</p>
+                </div>
+                
+                <div class="departement-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="departement-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3>GMP</h3>
+                    <p>Génie Mécanique et Génie de Production</p>
+                </div>
+                
+                <div class="departement-card" data-aos="zoom-in" data-aos-delay="250">
+                    <div class="departement-icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3>GIM</h3>
+                    <p>Génie Industriel et Maintenance</p>
+                </div>
+                
+                <div class="departement-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="departement-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>GP</h3>
+                    <p>Génie des Procédés</p>
+                </div>
+                
+                <div class="departement-card" data-aos="zoom-in" data-aos-delay="350">
+                    <div class="departement-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>ELE</h3>
+                    <p>Électrotechnique</p>
+                </div>
+                
+                <div class="departement-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="departement-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>GLT</h3>
+                    <p>Génie Logistique et Transport</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Section -->
+    <section id="admission" class="section admission">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Admission</h2>
+                <p class="section-subtitle">Rejoignez l'ENSTA et construisez votre avenir</p>
+            </div>
+            
+            <div class="admission-grid">
+                <div class="admission-card" data-aos="fade-up">
+                    <div class="admission-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Concours National</h3>
+                    <p>Admission sur concours national pour les bacheliers scientifiques. Sélection sur dossier et épreuves écrites.</p>
+                    <a href="#contact" class="btn btn-outline">En savoir plus</a>
+                </div>
+                
+                <div class="admission-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="admission-icon">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <h3>Transfert</h3>
+                    <p>Transfert possible depuis d'autres établissements d'enseignement supérieur selon les conditions d'équivalence.</p>
+                    <a href="#contact" class="btn btn-outline">En savoir plus</a>
+                </div>
+                
+                <div class="admission-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="admission-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Formation Continue</h3>
+                    <p>Programmes de formation continue et perfectionnement pour les professionnels et entreprises.</p>
+                    <a href="#contact" class="btn btn-outline">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Contact & Localisation</h2>
+                <p class="section-subtitle">Nous sommes à votre écoute</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Adresse</h3>
+                            <p>Cité Diplomatique (Ex Centre Biomédical)<br>Dergana, Bordj El Kiffan<br>Alger, Algérie</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Téléphone</h3>
+                            <p>+213 23 79 71 18</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Site Web</h3>
+                            <p><a href="https://ensta.edu.dz" target="_blank">ensta.edu.dz</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nom complet</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="map-wrapper" data-aos="fade-up">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.5!2d3.2!3d36.7!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzYuN0EsIDMuMkE!5e0!3m2!1sfr!2sdz!4v1234567890" 
+                    width="100%" 
+                    height="400" 
+                    style="border:0; border-radius: 12px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-brand">
+                        <img src="assets/images/logo.png" alt="ENSTA Logo" class="footer-logo">
+                        <h3>ENSTA</h3>
+                        <p>École Nationale Supérieure des Technologies Avancées. Excellence en ingénierie et technologies avancées.</p>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Liens Rapides</h4>
+                    <ul class="footer-links">
+                        <li><a href="#presentation">Présentation</a></li>
+                        <li><a href="#formations">Formations</a></li>
+                        <li><a href="#specialites">Spécialités</a></li>
+                        <li><a href="#admission">Admission</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> Cité Diplomatique, Dergana, Alger</li>
+                        <li><i class="fas fa-phone"></i> +213 23 79 71 18</li>
+                        <li><i class="fas fa-globe"></i> ensta.edu.dz</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Suivez-nous</h4>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 ENSTA - École Nationale Supérieure des Technologies Avancées. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
